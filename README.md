@@ -31,10 +31,10 @@ Get status of vJoy device (device id is the controller id number from the vJoy c
 VJoy.status(device_id)
 ```
 Return values are as follows:
-:free - The device is not owned.
-:own - The device is owned by the current process.
-:busy - The device is owned by another process.
-:missing - The device does not exist (check your vJoy configuration)
+**:free** - The device is not owned.
+**:own** - The device is owned by the current process.
+**:busy** - The device is owned by another process.
+**:missing** - The device does not exist (check your vJoy configuration)
 
 Create a vJoy instance/take ownership of a device:
 ```
@@ -56,25 +56,25 @@ Set the position of an disc POV on the virtual controller:
 vjoy.disc_pov(pov_id, value)
 ```
 Values can be:
-:up (or 0)
-:right (or 1)
-:down (or 2)
-:left (or 3)
+**:up** (or 0)
+**:right** (or 1)
+**:down** (or 2)
+**:left** (or 3)
 
 Set the position of an continuous POV on the virtual controller:
 ```
 vjoy.cont_pov(pov_id, value)
 ```
 Values can be:
-:neutral (or -1)
-:up (or 0)
-:upright (or 0.125)
-:right (or 0.25)
-:downright (or 0.375)
-:down (or 0.5)
-:downleft (or 0.625)
-:left (or 0.75)
-:upleft (or 0.875)
+**:neutral** (or -1)
+**:up** (or 0)
+**:upright** (or 0.125)
+**:right** (or 0.25)
+**:downright** (or 0.375)
+**:down** (or 0.5)
+**:downleft** (or 0.625)
+**:left** (or 0.75)
+**:upleft** (or 0.875)
 
 License
 ------
