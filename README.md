@@ -34,7 +34,7 @@ Return values are as follows:
 **:free** - The device is not owned.
 **:own** - The device is owned by the current process.
 **:busy** - The device is owned by another process.
-**:missing** - The device does not exist (check your vJoy configuration)
+**:missing** - The device does not exist (check your vJoy configuration).
 
 Create a vJoy instance/take ownership of a device:
 ```
