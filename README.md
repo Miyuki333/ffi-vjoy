@@ -1,5 +1,4 @@
 # ffi-vjoy
-An FFI wrapper for the vJoy virtual controller library.
 ===============
 
 ffi-vjoy is an FFI wrapper that can be used to interface with the vJoy virtual controller library for Windows. It allows you to create vJoy feeders using a simple Ruby based API.
